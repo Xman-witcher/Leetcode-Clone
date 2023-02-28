@@ -1,0 +1,106 @@
+<html>
+  {%load static%}
+  <head>
+    <style>
+
+    .images:hover {
+        box-shadow: 0 0 20px #d7e6e2;
+        }
+
+    
+
+      h1 {
+        color: rgb(218, 187, 13);
+      }
+
+
+        body {
+          background-color: rgb(13, 129, 75);
+        }
+        .header {
+          text-align: center;
+        }
+        .boxes {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+          align-items: center;
+         
+         
+        }
+        .box {
+          width: 200px;
+          height: 100px;
+          margin: 20px;
+          text-align: center;
+          border: 1px solid black;
+          background-color: white;
+          cursor: pointer;
+        }
+      </style>
+  </head>
+  <body>
+    <img width="400" height='60' src="{%static 'images/icon.png'%}" alt="Your Image Description" style="display: block; margin: 0 auto;" class="title">
+    <br> <br> 
+    <div class="header">
+      <table align="center">
+        <tr>
+          <td style="padding-right: 40px;">
+          </div>
+          <a href="question1.html">
+          <div class="boxes" >
+          <img src="{%static 'images/1.png'%}" alt="" class="images">
+            
+            </div>
+          </a>
+          </td>
+
+
+          <td><a href="question2.html">
+      <div class="boxes" >
+        <img src="{%static 'images/2.png'%}" alt="" class="images">
+      </div>
+      </a></td>
+        </tr>
+       </table>
+       <br>
+
+        <table align='center'>
+        <tr>
+       
+          <td style="padding-right: 40px;">
+            <a href="question3.html">
+              <div class="boxes">
+               
+                <img src="{%static 'images/3.png'%}" alt="" class="images">
+              </div>
+              </a>
+            
+          </td>
+
+
+          <td>
+            <a href="question4.html">
+              <div class="boxes">
+                <img src="{%static 'images/4.png'%}" alt="" class="images">
+              </div>
+              </a>
+
+          </td>
+
+
+        </tr>
+      </table>
+
+      <br>
+    
+      
+     
+      <a href="question5.html">
+      <div class="boxes">
+        <img src="{%static 'images/5.png'%}" alt="" class="images">
+      </div>
+      </a>
+    </div>
+  </body>
+</html>
